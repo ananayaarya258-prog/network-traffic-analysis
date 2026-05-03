@@ -148,16 +148,34 @@ This helps attribute activity to a specific user account.
 
 After completing packet analysis, the following indicators were extracted:
 
-#### IP Addresses
-- 45.131.214.85
-- 10.2.28.88
+## Indicators of Compromise (IOCs)
 
-#### URL
+### Malicious Infrastructure
+
+**Attacker IP Address**
+- 45.131.214.85
+
+**Suspicious URL**
 - http://45.131.214.85/fakeurl.html
 
-#### Malware Family
+**Malware Family**
 - NetSupport Manager RAT
 
+---
+
+### Compromised Host Details
+
+**Infected Windows Client IP**
+- 10.2.28.88
+
+**MAC Address**
+- 00:19:d1:b2:4d:ad
+
+**Hostname**
+- DESKTOP-TEYQ2NR
+
+**User Account**
+- brolf
 ---
 
 ### Step 9: Final Attribution
