@@ -19,6 +19,8 @@ infected_20260228
 
 Once extracted, the PCAP file was opened in Wireshark for analysis.
 
+![Traffic Filtering](../images/ss1.png)
+
 ---
 
 ### Step 2: Review Incident Scenario
@@ -56,7 +58,7 @@ This strongly suggested that internal host **10.2.28.88** was the infected endpo
 
 ---
 
-![Traffic Filtering](../images/ss1.png)
+
 
 ---
 
@@ -75,7 +77,7 @@ This indicates possible malware staging, payload delivery, or RAT-related commun
 
 ---
 
-![Suspicious URL Analysis](../screenshots/screenshot2.png)
+![Suspicious URL Analysis](../images/ss2.png)
 
 ---
 
@@ -94,7 +96,7 @@ This identifies the hardware interface of the compromised machine.
 
 ---
 
-![MAC Address Discovery](../screenshots/screenshot3.png)
+![MAC Address Discovery](../images/ss3.png)
 
 ---
 
@@ -117,7 +119,7 @@ This helps associate the infected IP with a specific workstation.
 
 ---
 
-![Hostname Discovery](../screenshots/screenshot4.png)
+![Hostname Discovery](../images/ss4.png)
 
 ---
 
@@ -138,7 +140,7 @@ This helps attribute activity to a specific user account.
 
 ---
 
-![User Account Discovery](../screenshots/screenshot5.png)
+![User Account Discovery](../images/ss5.png)
 
 ---
 
