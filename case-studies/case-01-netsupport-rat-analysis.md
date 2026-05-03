@@ -56,7 +56,7 @@ This strongly suggested that internal host **10.2.28.88** was the infected endpo
 
 ---
 
-![Traffic Filtering](../screenshots/screenshot1.png)
+![Traffic Filtering](../images/ss1.png)
 
 ---
 
