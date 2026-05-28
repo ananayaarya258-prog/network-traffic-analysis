@@ -72,7 +72,7 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 - Investigated outbound malicious communication
 - Identified suspicious HTTP requests and external infrastructure
 
-```text
+
 
 ![Wireshark HTTP Analysis](../images/warzone1.png)
 ```
