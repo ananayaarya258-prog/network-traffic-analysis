@@ -1,4 +1,3 @@
-
 # SOC Case Study 2 - Warzone1 PCAP Analysis
 
 ## Overview
@@ -9,12 +8,12 @@ This project documents my malware traffic investigation from the TryHackMe Warzo
 
 ## Tools Used
 
-* Wireshark
-* Brim
-* CyberChef
-* VirusTotal
-* Network Traffic Analysis
-* Threat Intelligence
+- Wireshark
+- Brim
+- CyberChef
+- VirusTotal
+- Network Traffic Analysis
+- Threat Intelligence
 
 ---
 
@@ -22,25 +21,25 @@ This project documents my malware traffic investigation from the TryHackMe Warzo
 
 I started the investigation by applying the following Wireshark filter:
 
-```text id="vrb4ys"
+```text
 http
 ```
 
 After inspecting the HTTP traffic, I identified suspicious communication from the internal source IP:
 
-```text id="4slsn0"
+```text
 172[.]16[.]1[.]102
 ```
 
 The traffic was communicating with the external destination IP:
 
-```text id="5bifx5"
+```text
 169[.]239[.]128[.]11
 ```
 
 Suspicious URL identified:
 
-```text id="hz06od"
+```text
 http://fidufagios.com/r?x=bmFtZT1TVE9DS0lURk9SVVNcZHdpZ2h0Lm1vcmFsZXMmb3M9MTAuMCZhcmNoPXg4NiZidWlsZD0xLjAuMg==
 ```
 
@@ -54,14 +53,14 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 ## Indicators of Compromise (IOCs)
 
-| Type           | Value                |
-| -------------- | -------------------- |
-| Source IP      | 172[.]16[.]1[.]102   |
+| Type | Value |
+|---|---|
+| Source IP | 172[.]16[.]1[.]102 |
 | Destination IP | 169[.]239[.]128[.]11 |
-| Domain         | fidufagios[.]com     |
-| Protocol       | HTTP                 |
-| Malware Family | MirrorBlast          |
-| Threat Group   | TA505                |
+| Domain | fidufagios[.]com |
+| Protocol | HTTP |
+| Malware Family | MirrorBlast |
+| Threat Group | TA505 |
 
 ---
 
@@ -69,11 +68,11 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 ### Wireshark HTTP Analysis
 
-* Applied HTTP filter to isolate suspicious traffic
-* Investigated outbound malicious communication
-* Identified suspicious HTTP requests and external infrastructure
+- Applied HTTP filter to isolate suspicious traffic
+- Investigated outbound malicious communication
+- Identified suspicious HTTP requests and external infrastructure
 
-```text id="s4vsxl"
+```text
 screenshots/http-analysis.png
 ```
 
@@ -81,12 +80,11 @@ screenshots/http-analysis.png
 
 ### VirusTotal Threat Analysis
 
-* Validated malicious domain reputation
-* Investigated threat intelligence data
-* Correlated indicators with known malware activity
+- Validated malicious domain reputation
+- Investigated threat intelligence data
+- Correlated indicators with known malware activity
 
-```text id="j4j08i"
+```text
 screenshots/virustotal-analysis.png
 ```
-
 
