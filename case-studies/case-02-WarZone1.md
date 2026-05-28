@@ -73,7 +73,7 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 - Identified suspicious HTTP requests and external infrastructure
 
 ```text
-screenshots/http-analysis.png
+![Traffic Filtering](../images/warzone1.png)
 ```
 
 ---
@@ -85,5 +85,5 @@ screenshots/http-analysis.png
 - Correlated indicators with known malware activity
 
 ```text
-screenshots/virustotal-analysis.png
+![Traffic Filtering](../images/warzone2.png)
 ```
