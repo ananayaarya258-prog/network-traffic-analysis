@@ -75,7 +75,7 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 
 ![Wireshark HTTP Analysis](../images/warzone1.png)
-```
+
 
 ---
 
@@ -85,6 +85,5 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 - Investigated threat intelligence data
 - Correlated indicators with known malware activity
 
-```text
 ![Traffic Filtering](../images/warzone2.png)
 ```
