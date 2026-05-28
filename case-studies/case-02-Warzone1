@@ -8,12 +8,10 @@ This project documents my malware traffic investigation from the TryHackMe Warzo
 
 ## Tools Used
 
-- Wireshark
-- Brim
-- CyberChef
-- VirusTotal
-- Network Traffic Analysis
-- Threat Intelligence
+* Wireshark
+* VirusTotal
+* Network Traffic Analysis
+* Threat Intelligence
 
 ---
 
@@ -53,14 +51,14 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 ## Indicators of Compromise (IOCs)
 
-| Type | Value |
-|---|---|
-| Source IP | 172[.]16[.]1[.]102 |
+| Type           | Value                |
+| -------------- | -------------------- |
+| Source IP      | 172[.]16[.]1[.]102   |
 | Destination IP | 169[.]239[.]128[.]11 |
-| Domain | fidufagios[.]com |
-| Protocol | HTTP |
-| Malware Family | MirrorBlast |
-| Threat Group | TA505 |
+| Domain         | fidufagios[.]com     |
+| Protocol       | HTTP                 |
+| Malware Family | MirrorBlast          |
+| Threat Group   | TA505                |
 
 ---
 
@@ -68,9 +66,9 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 ### Wireshark HTTP Analysis
 
-- Applied HTTP filter to isolate suspicious traffic
-- Investigated outbound malicious communication
-- Identified suspicious HTTP requests and external infrastructure
+* Applied HTTP filter to isolate suspicious traffic
+* Investigated outbound malicious communication
+* Identified suspicious HTTP requests and external infrastructure
 
 ```text
 screenshots/http-analysis.png
@@ -80,10 +78,11 @@ screenshots/http-analysis.png
 
 ### VirusTotal Threat Analysis
 
-- Validated malicious domain reputation
-- Investigated threat intelligence data
-- Correlated indicators with known malware activity
+* Validated malicious domain reputation
+* Investigated threat intelligence data
+* Correlated indicators with known malware activity
 
 ```text
 screenshots/virustotal-analysis.png
 ```
+
