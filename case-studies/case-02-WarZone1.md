@@ -74,7 +74,7 @@ Further analysis revealed that the malicious traffic was associated with the Mir
 
 ```text
 
-![Wireshark HTTP Analysis](images/warzone1.png)
+![Wireshark HTTP Analysis](../images/warzone1.png)
 ```
 
 ---
