@@ -1,4 +1,3 @@
-<img width="3200" height="1904" alt="2026-07-06 (6)" src="https://github.com/user-attachments/assets/2358cbb9-151a-4b39-9759-9a3939aaae60" /># Case 3: Packet Primer - PicoCTF Write-up
 
 ## Overview
 
