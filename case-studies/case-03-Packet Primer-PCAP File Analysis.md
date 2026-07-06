@@ -65,6 +65,8 @@ network-dump.flag.pcap
 
 This PCAP file contains the captured network communication that needs to be analyzed.
 
+![picoCTF](../images/packetprimer1.png)
+
 ---
 
 # Step 2: Open the PCAP File in Wireshark
