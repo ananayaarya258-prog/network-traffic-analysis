@@ -271,7 +271,7 @@ Wireshark displays the payload in three different formats:
 - Packet Details
 - Hexadecimal View
 - ASCII View
-
+![picoCTF](../images/packetprimer3.png)
 ---
 
 # Understanding the Hexadecimal View
@@ -298,10 +298,7 @@ Instead of seeing hexadecimal values, we can now read the transmitted text.
 
 This makes it much easier to identify readable information hidden inside packet payloads.
 
-> **Insert Screenshot 3 Here**
->
-> *Hexadecimal and ASCII View*
-
+![picoCTF](../images/packetprimer4.png)
 ---
 
 # Finding the Flag
