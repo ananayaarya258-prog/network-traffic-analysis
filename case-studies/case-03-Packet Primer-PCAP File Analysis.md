@@ -83,10 +83,7 @@ network-dump.flag.pcap
 ```
 
 Once opened, Wireshark displays all the captured packets contained in the file.
-
-> **Insert Screenshot 1 Here**
->
-> *Initial Packet View in Wireshark*
+![picoCTF](../images/packetprimer2.png)
 
 ---
 
