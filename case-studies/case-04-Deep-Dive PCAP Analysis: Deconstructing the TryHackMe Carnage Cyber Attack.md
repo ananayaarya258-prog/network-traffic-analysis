@@ -37,7 +37,7 @@ The incident began when Eric Fischer from the Purchasing Department opened an in
 * **Filter:** `http`
 * **Logic:** Inspect the HTTP headers inside packet **1735**. Look at the **Host:** line under the Hypertext Transfer Protocol metadata layer.
 * **Value:** `attirenepal.com`
- ![carnage](../images/carnage4.png)
+ ![carnage](../images/carnage3.png)
 ---
 
 ### Step 3: Decompressing the Payload Layer in the TCP Stream
