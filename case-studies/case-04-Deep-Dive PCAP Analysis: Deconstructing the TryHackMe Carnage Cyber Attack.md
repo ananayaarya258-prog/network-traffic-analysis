@@ -12,6 +12,7 @@ The incident began when Eric Fischer from the Purchasing Department opened an in
 1. Log into the analyst environment (`THM-CARNAGE-VM`).
 2. Navigate to `/home/ubuntu/Desktop/Analysis/`.
 3. Right-click the `carnage.pcap` file (size: ~53.4 MiB) and select **Open With "Wireshark"**.
+4. ![carnage](../images/carnage1.png)
 
 ---
 
