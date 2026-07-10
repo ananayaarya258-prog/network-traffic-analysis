@@ -24,6 +24,7 @@ The incident began when Eric Fischer from the Purchasing Department opened an in
 * **Logic:** Locate the earliest `GET` request. Frame **1735** shows the victim host `10.9.23.102` connecting to destination IP `85.187.128.24`. Select this packet and inspect the **Frame Detail** section under *Arrival Time*.
 * **Answer Format:** `yyyy-mm-dd hh:mm:ss`
 * **Value:** `2021-09-24 16:44:38`
+*  ![carnage](../images/carnage2.png)
 
 #### **Question 2: What is the name of the zip file that was downloaded?**
 * **Filter:** `http.request.method == "GET"`
